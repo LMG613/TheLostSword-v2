@@ -1,0 +1,141 @@
+/*página*/
+body {
+    padding-top: 68px; background:url(../_imgs/Background.jpg) center 0px no-repeat black; font: 14px Segoe UI; overflow-x: hidden;
+    font-family: 'Orbitron',sans-serif;
+    color: black;
+    clear:both;
+    width:auto;
+}
+main {
+    width:1000px;
+    margin:-1px auto 10px;
+    border:1px solid #050505;
+    background-color:#d2d2d2;
+
+}
+header {
+    margin:auto;
+    float:center;
+    background:url(../_imgs/The%20Lost%20Sword.png) center 0px no-repeat transparent; font: 14px Segoe UI; overflow-x: hidden;
+    width:1000px;
+    height: 400px;
+    text-align: center;
+}
+article {
+    float:left;
+    margin:30px 20px;
+    width:600px;
+}
+footer {
+    clear:both;
+    width:auto;
+    margin:0 auto;
+    font-size:0.75em;
+    text-align:center;
+    padding:5px;
+    color: whitesmoke;
+	color: #999999;
+	font-family: Arial,Helvetica,sans-serif;
+	position: relative;
+	color:#FFF;
+}
+/*menu*/
+nav {
+    width: auto;
+    background-color: #c0c0c0;
+}
+nav ul {
+    list-style:none;
+    margin:0;
+    padding:4px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 4px 20px;
+    color: black;
+}
+nav ul li a:hover {
+    background-color: darkgray;
+}
+/*texto*/
+h1 {
+    font-size: 36px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+/*noticias*/
+.titulo {
+	background-color: #c0c0c0;
+    border: 1px solid darkgray;
+	position:relative;
+	left:-40px;
+    display: block;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+}
+.titulo a{
+    text-decoration:none;
+    color: black;
+}
+.titulo p{
+    padding-left: 20px;
+    font-family: 'Orbitron';
+}
+.saibamais{
+	width:100%;
+	height:50px;
+	display:block;
+    padding-top: 20px;
+	position:relative;
+    font-size:13px;
+}
+.saibamais a {
+    bottom: 0px;
+    float:right;
+    position: absolute;
+    right: 0px;
+	text-decoration:none;
+    color: black;
+}
+.ver-tudo a {
+    display: block;
+    float: right;
+    margin-right: 6px;
+    padding-top: 6px;
+    text-decoration: none;
+    width: 105px;
+    color: black;
+}
+.saibamais a:hover {
+	color:darkgray;
+	}
+.titulo a:hover {
+	color:darkgray;
+	}
+.ver-tudo a:hover {
+	color:darkgray;
+	}
+/*divs*/
+#direito {
+    float:right;
+    width:300px;
+    margin-top:150px;
+}
+#fimPag {
+    clear:both;
+    font-size:0;
+    text-align:center;
+    background-color:#d2d2d2;
+    padding:0px;
+}

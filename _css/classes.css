@@ -1,0 +1,154 @@
+/*página*/
+body {
+    padding-top: 68px; background:url(../_imgs/Background.jpg) center 0px no-repeat black; font: 14px Segoe UI; overflow-x: hidden;
+    font-family: 'Orbitron',sans-serif;
+    color: black;
+    clear:both;
+    width:auto;
+}
+main {
+    width:1000px;
+    margin:-1px auto 10px;
+    border:1px solid #050505;
+    background-color:#d2d2d2;
+
+}
+header {
+    margin:auto;
+    float:center;
+    background:url(../_imgs/The%20Lost%20Sword.png) center 0px no-repeat transparent; font: 14px Segoe UI; overflow-x: hidden;
+    width:1000px;
+    height: 400px;
+    text-align: center;
+}
+article {
+    float:left;
+    margin:30px 20px;
+    width:600px;
+    /*background-color: #d2d2d2;*/
+}
+article header hgroup h1 {
+    margin:0;
+}
+article header hgroup h5 {
+    margin:0; font-size: 1.1em; color:#ccc;
+    font-weight: 100;
+}
+footer {
+    clear:both;
+    width:auto;
+    margin:0 auto;
+    font-size:0.75em;
+    text-align:center;
+    padding:5px;
+    color: whitesmoke;
+    /*    
+	background: url("../footer.jpg") no-repeat scroll center top #222121;
+    height: 500px;
+	margin-top: -300px;
+	padding-top: 577px;
+    */
+	color: #999999;
+	font-family: Arial,Helvetica,sans-serif;
+	position: relative;
+	color:#FFF;
+}
+/*menu*/
+nav {
+    width: auto;
+    background-color: #c0c0c0;
+}
+nav ul {
+    list-style:none;
+    margin:0;
+    padding:4px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 4px 20px;
+    color: black;
+}
+nav ul li a:hover {
+    background-color: darkgray;
+}
+/*texto*/
+h1 {
+    font-family: 'Orbitron', fantasy, sans-serif;
+    font-size: 36px;
+}
+h3 {
+    font-family: 'Orbitron',fantasy, sans-serif;
+}
+p {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+/*tabela*/
+table{
+    font-family: sans-serif;
+    width: 500px;
+    margin:0 auto;
+    /*border-spacing: 0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;*/
+    
+}
+caption {
+    font-family: fantasy;
+    font-size: 130%;
+    /*font-weight: bold; nao combina com a fonte fantasy*/
+    padding: 5px 0;
+    background-color: #b4b4b4;
+    /*border: 1px solid #ccc;*/
+    border-bottom: none;
+}
+tr, td, th {
+    padding: 5px;
+    /*border: thin solid #ccc;
+    border-bottom: none;
+    border-right: none;*/
+}
+td {
+    text-align: center;
+    font-size: 14px;
+}
+th {
+    font-family: fantasy;
+    font-weight: normal;
+    text-align: left;
+    width: 150px;
+}
+thead tr:first-child{
+    text-align: center;
+    font-family: fantasy;
+    background-color: #b9b9b9;
+}
+/* Caso queira cores alternadas
+tbody tr:nth-child(odd){
+    background-color: beige;
+}
+*/
+tbody tr{
+    background-color: #bebebe;
+}
+/*divs*/
+#fotos {
+    float:right;
+    width:300px;
+    margin-top:150px;
+}
+#descricaoArma {
+    float:left;
+}
+#fimPag {
+    clear:both;
+    font-size:0;
+    text-align:center;
+    background-color:#d2d2d2;
+    padding:0px;
+}
+
