@@ -10,34 +10,14 @@
     <meta name="content-language" content="pt-br">
     <link href="../css/classes.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 
 <body>
     <header></header>
     <main>
-        <nav>
-            <center>
-            <ul>
-                <li><a href="../index.html">Início</a></li>
-                <li><a href="download.html">Download</a></li>
-                <li><a href="">Classes</a>
-                    <ul>
-                        <li><a href="../classes/cavaleiro.html">Cavaleiro</a></li>
-                        <li><a href="../classes/duelista.html">Duelista</a></li>
-                        <li><a href="../classes/espadachim.html">Espadachim</a></li>
-                        <li><a href="../classes/guardiao.html">Guardião</a></li>
-                        <li><a href="../classes/guerreiro.html">Guerreiro</a></li>
-                        <li><a href="../classes/samurai.html">Samurai</a></li>
-                        <li><a href="../classes/viking.html">Viking</a></li>
-                    </ul>
-                </li>
-                <li><a href="itens.html">Itens</a></li>
-                <li><a href="profissoes.html">Profissões</a></li>
-                <li><a href="monstros.html">Monstros</a></li>
-                <li><a href="cash.html">Cash</a></li>
-            </ul>
-            </center>
-        </nav>
+        <div w3-include-html="../partes_codigo/menu_dir.html"></div> 
+        <script> w3.includeHTML(); </script>
         <article>
             <h1>Cavaleiro</h1>
             <p>Cavaleiro é uma classe de maior alcance e uma velocidade considerável, porém não tem um dano muito elevado.</p>
